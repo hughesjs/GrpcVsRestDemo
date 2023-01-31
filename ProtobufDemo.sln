@@ -2,7 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialisationBenchmark", "SerialisationBenchmark\SerialisationBenchmark.csproj", "{41E32DE4-253F-4852-B63A-FB2A4E5FC496}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoProject", "DemoProject\DemoProject.csproj", "{D8923450-EB55-4510-BDEE-62AFE747C148}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtobufDemoProject", "ProtobufDemoProject\ProtobufDemoProject.csproj", "{D8923450-EB55-4510-BDEE-62AFE747C148}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRpcDemoProject", "GRpcDemoProject\GRpcDemoProject.csproj", "{D27EB23B-3BF1-4EA2-AD54-3FECA2D99420}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +20,9 @@ Global
 		{D8923450-EB55-4510-BDEE-62AFE747C148}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8923450-EB55-4510-BDEE-62AFE747C148}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8923450-EB55-4510-BDEE-62AFE747C148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D27EB23B-3BF1-4EA2-AD54-3FECA2D99420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D27EB23B-3BF1-4EA2-AD54-3FECA2D99420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D27EB23B-3BF1-4EA2-AD54-3FECA2D99420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D27EB23B-3BF1-4EA2-AD54-3FECA2D99420}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

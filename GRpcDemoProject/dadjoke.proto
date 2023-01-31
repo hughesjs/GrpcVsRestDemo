@@ -1,0 +1,22 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "ProtobufDemo.ProtoServices";
+
+service DadJokeService {
+  rpc GetDadJoke (DadJokeRequest) returns (DadJoke) {}
+}
+
+message DadJokeRequest {
+  enum Category {
+    PUNS = 0;
+    ONE_LINERS = 1;
+    PLAY_ON_WORDS = 2;
+    ANTICLIMACTIC = 3;
+    IRONY = 4;
+  }
+  Category category = 1;
+}
+
+message DadJoke {
+  string joke = 1;
+}
