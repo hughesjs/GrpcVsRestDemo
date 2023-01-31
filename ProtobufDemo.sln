@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialisationBenchmark", "SerialisationBenchmark\SerialisationBenchmark.csproj", "{41E32DE4-253F-4852-B63A-FB2A4E5FC496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoProject", "DemoProject\DemoProject.csproj", "{D8923450-EB55-4510-BDEE-62AFE747C148}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google.Protobuf", "..\protobuf\csharp\src\Google.Protobuf\Google.Protobuf.csproj", "{0EBCFCDD-4BB3-4C56-86F5-349B5E8AF5A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41E32DE4-253F-4852-B63A-FB2A4E5FC496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41E32DE4-253F-4852-B63A-FB2A4E5FC496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41E32DE4-253F-4852-B63A-FB2A4E5FC496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41E32DE4-253F-4852-B63A-FB2A4E5FC496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8923450-EB55-4510-BDEE-62AFE747C148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8923450-EB55-4510-BDEE-62AFE747C148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8923450-EB55-4510-BDEE-62AFE747C148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8923450-EB55-4510-BDEE-62AFE747C148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EBCFCDD-4BB3-4C56-86F5-349B5E8AF5A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EBCFCDD-4BB3-4C56-86F5-349B5E8AF5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EBCFCDD-4BB3-4C56-86F5-349B5E8AF5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EBCFCDD-4BB3-4C56-86F5-349B5E8AF5A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
