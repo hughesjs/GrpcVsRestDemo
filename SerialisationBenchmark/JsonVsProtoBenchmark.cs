@@ -17,6 +17,7 @@ public class JsonVsProtoBenchmark
     public JsonVsProtoBenchmark()
     {
         Fixture fixture = new();
+        fixture.Customize(new AddressBookCustomisation());
         _addressBook = fixture.Create<AddressBook>();
         _codedOutputStream = new(Stream.Null);
         _nullStream = Stream.Null;
@@ -34,7 +35,6 @@ public class JsonVsProtoBenchmark
         string json = JsonSerializer.Serialize(_addressBook);
         byte[] encodedBytes = Encoding.UTF8.GetBytes(json);
         _nullStream.Write(encodedBytes);
-        _nullStream.Flush();
     }
     
     [Benchmark]
@@ -43,7 +43,6 @@ public class JsonVsProtoBenchmark
         string json = JsonConvert.SerializeObject(_addressBook);
         byte[] encodedBytes = Encoding.UTF8.GetBytes(json);
         _nullStream.Write(encodedBytes);
-        _nullStream.Flush();
     }
 
     [Benchmark]

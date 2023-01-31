@@ -12,36 +12,26 @@ using ProtobufDemo.ProtoModels;
 using JsonSerializer = System.Text.Json.JsonSerializer;
 
 // Run serialisation benchmark
-// Summary summary = BenchmarkRunner.Run<JsonVsProtoBenchmark>();
-
-namespace Benchmark;
-
-public class Benchmark
-{
-    public static void Main()
-    {
-        //Get size difference
-        Fixture fixture = new();
-        fixture.Customize(new AddressBookCustomisation());
-        // fixture.Customize(new PersonCustomisation());
-        // fixture.Customize(new PhoneNumberCustomisation());
+Summary summary = BenchmarkRunner.Run<JsonVsProtoBenchmark>();
 
 
-        AddressBook book = fixture.Create<AddressBook>();
+//Get size difference
+Fixture fixture = new();
+fixture.Customize(new AddressBookCustomisation());
 
-        string json = JsonSerializer.Serialize(book);
-        byte[] encodedBytes = Encoding.UTF8.GetBytes(json);
+AddressBook book = fixture.Create<AddressBook>();
 
-        Console.WriteLine($"JSON Payload Size: {encodedBytes.Length}B");
-
-
-        MemoryStream memStream = new();
-        CodedOutputStream codedOutputStream = new(memStream);
-
-        book.WriteTo(codedOutputStream);
+string json = JsonSerializer.Serialize(book);
+byte[] encodedBytes = Encoding.UTF8.GetBytes(json);
+Console.WriteLine($"JSON Payload Size: {encodedBytes.Length}B");
 
 
-        Console.WriteLine($"Protobuf Payload Size: {memStream.ToArray().Length}B");
-    }
-}
+using MemoryStream memStream = new();
+CodedOutputStream codedOutputStream = new(memStream);
+
+book.WriteTo(codedOutputStream);
+
+codedOutputStream.Flush();
+
+Console.WriteLine($"Protobuf Payload Size: {memStream.ToArray().Length}B");
 
