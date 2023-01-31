@@ -1,0 +1,13 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "ProtobufDemo.ProtoServices";
+
+service PhysicsJokeService {
+  rpc SubscribeToJokes (stream Reset) returns (stream PhysicsJoke) {}
+}
+
+message PhysicsJoke {
+  string joke = 1;
+}
+
+message Reset {}

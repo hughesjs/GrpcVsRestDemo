@@ -16,6 +16,9 @@
         <Protobuf Include="dadjoke.proto">
             <Generator>MSBuild:Compile</Generator>
         </Protobuf>
+        <Protobuf Include="physicsjoke.proto">
+            <Generator>MSBuild:Compile</Generator>
+        </Protobuf>
     </ItemGroup>
 
 </Project>

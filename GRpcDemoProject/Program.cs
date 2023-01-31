@@ -12,6 +12,7 @@ builder.Services.AddGrpcReflection();
 
 WebApplication app = builder.Build();
 app.MapGrpcService<DadJokeService>();
+app.MapGrpcService<PhysicsJokeService>();
 app.MapGrpcReflectionService();
 
 app.Run();
