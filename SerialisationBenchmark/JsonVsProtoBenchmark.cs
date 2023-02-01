@@ -10,11 +10,12 @@ namespace Benchmark;
 
 public class JsonVsProtoBenchmark
 {
-    private readonly AddressBook _addressBook;
-    private readonly CodedOutputStream _codedOutputStream;
-    private readonly Stream _nullStream;
+    private AddressBook _addressBook;
+    private CodedOutputStream _codedOutputStream;
+    private Stream _nullStream;
 
-    public JsonVsProtoBenchmark()
+    [GlobalSetup]
+    public void Setup()
     {
         Fixture fixture = new();
         fixture.Customize(new AddressBookCustomisation());

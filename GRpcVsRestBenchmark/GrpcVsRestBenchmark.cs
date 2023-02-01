@@ -7,11 +7,12 @@ namespace GRpcVsRestBenchmark;
 
 public class GrpcVsRestBenchmark
 {
-    private readonly RestClient _restClient;
-    private readonly GrpcClient _grpcClient;
-    private readonly MeteoriteLandingList _meteoriteLandingList;
+    private RestClient _restClient;
+    private GrpcClient _grpcClient;
+    private MeteoriteLandingList _meteoriteLandingList;
     
-    public GrpcVsRestBenchmark()
+    [GlobalSetup]
+    public void Setup()
     {
         _restClient = new();
         _grpcClient = new();
