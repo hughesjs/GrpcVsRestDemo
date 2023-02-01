@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtobufDemoProject", "Prot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRpcDemoProject", "GRpcDemoProject\GRpcDemoProject.csproj", "{D27EB23B-3BF1-4EA2-AD54-3FECA2D99420}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcVsProtobufBenchmarkRestServer", "GrpcVsProtobufBenchmarkRestServer\GrpcVsProtobufBenchmarkRestServer.csproj", "{C4F5286A-719A-4BDA-A0BF-3DCB732E41C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcVsProtobufBenchmarkGRpcServer", "GrpcVsProtobufBenchmarkGRpcServer\GrpcVsProtobufBenchmarkGRpcServer.csproj", "{F2D9E2E2-FFCA-47F6-AEF3-AAF1C11B9B56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{D27EB23B-3BF1-4EA2-AD54-3FECA2D99420}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D27EB23B-3BF1-4EA2-AD54-3FECA2D99420}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D27EB23B-3BF1-4EA2-AD54-3FECA2D99420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4F5286A-719A-4BDA-A0BF-3DCB732E41C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4F5286A-719A-4BDA-A0BF-3DCB732E41C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4F5286A-719A-4BDA-A0BF-3DCB732E41C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4F5286A-719A-4BDA-A0BF-3DCB732E41C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2D9E2E2-FFCA-47F6-AEF3-AAF1C11B9B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D9E2E2-FFCA-47F6-AEF3-AAF1C11B9B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D9E2E2-FFCA-47F6-AEF3-AAF1C11B9B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D9E2E2-FFCA-47F6-AEF3-AAF1C11B9B56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

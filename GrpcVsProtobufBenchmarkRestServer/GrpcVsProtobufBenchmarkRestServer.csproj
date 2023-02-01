@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>GrpcVsProtobufBenchmark</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="ModelLib" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.2" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Protobuf Include="ModelLib/GRPC/MeteoriteLandings.proto">
+            <Generator>MSBuild:Compile</Generator>
+        </Protobuf>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="ModelLib\Data\MeteoriteLandings.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+</Project>
