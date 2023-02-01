@@ -2,7 +2,7 @@
 using Grpc.Net.Client;
 using ModelLibrary.GRPC;
 
-namespace GRpcVsRestBenchmark.Clients;
+namespace GrpcVsRestBenchmark.Clients;
 
 public class GrpcClient
 {

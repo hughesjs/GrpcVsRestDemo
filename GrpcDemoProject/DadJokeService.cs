@@ -1,7 +1,7 @@
 ﻿using Grpc.Core;
 using ProtobufDemo.ProtoServices;
 
-namespace GRpcDemoProject;
+namespace GrpcDemoProject;
 
 public class DadJokeService: ProtobufDemo.ProtoServices.DadJokeService.DadJokeServiceBase
 {

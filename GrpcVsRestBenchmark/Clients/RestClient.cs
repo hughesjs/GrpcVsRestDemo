@@ -1,7 +1,7 @@
 ﻿using System.Net.Http.Json;
 using GrpcVsRestBenchmark.ModelLib.REST;
 
-namespace GRpcVsRestBenchmark.Clients;
+namespace GrpcVsRestBenchmark.Clients;
 
 public class RestClient
 {

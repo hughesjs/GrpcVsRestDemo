@@ -4,17 +4,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialisationBenchmark", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtobufDemoProject", "ProtobufDemoProject\ProtobufDemoProject.csproj", "{D8923450-EB55-4510-BDEE-62AFE747C148}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRpcDemoProject", "GRpcDemoProject\GRpcDemoProject.csproj", "{D27EB23B-3BF1-4EA2-AD54-3FECA2D99420}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcDemoProject", "GrpcDemoProject\GrpcDemoProject.csproj", "{D27EB23B-3BF1-4EA2-AD54-3FECA2D99420}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcVsRestBenchmarkRestServer", "GrpcVsRestBenchmarkRestServer\GrpcVsRestBenchmarkRestServer.csproj", "{C4F5286A-719A-4BDA-A0BF-3DCB732E41C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcVsRestBenchmarkGRpcServer", "GrpcVsRestBenchmarkGRpcServer\GrpcVsRestBenchmarkGRpcServer.csproj", "{F2D9E2E2-FFCA-47F6-AEF3-AAF1C11B9B56}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcVsRestBenchmarkGrpcServer", "GrpcVsRestBenchmarkGrpcServer\GrpcVsRestBenchmarkGrpcServer.csproj", "{F2D9E2E2-FFCA-47F6-AEF3-AAF1C11B9B56}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos", "Demos", "{295CB714-9206-43EE-B755-955D9F9A896F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Benchmarking", "Benchmarking", "{60025642-B2C4-4091-9FA5-4953D241A7BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRpcVsRestBenchmark", "GRpcVsRestBenchmark\GRpcVsRestBenchmark.csproj", "{48DAAAC8-C00B-40EC-9CC4-36ECA9D25DF2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcVsRestBenchmark", "GrpcVsRestBenchmark\GrpcVsRestBenchmark.csproj", "{48DAAAC8-C00B-40EC-9CC4-36ECA9D25DF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

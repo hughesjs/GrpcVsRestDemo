@@ -1,9 +1,9 @@
 ﻿using BenchmarkDotNet.Attributes;
-using GRpcVsRestBenchmark.Clients;
+using GrpcVsRestBenchmark.Clients;
 using GrpcVsRestBenchmark.ModelLib.Data;
 using ModelLibrary.GRPC;
 
-namespace GRpcVsRestBenchmark;
+namespace GrpcVsRestBenchmark;
 
 public class GrpcVsRestBenchmark
 {
