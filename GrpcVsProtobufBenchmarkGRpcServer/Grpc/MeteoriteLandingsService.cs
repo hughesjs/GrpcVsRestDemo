@@ -1,4 +1,5 @@
 ﻿using Grpc.Core;
+using GrpcVsProtobufBenchmark.ModelLib.Data;
 using ModelLibrary.Data;
 using ModelLibrary.GRPC;
 using Version = ModelLibrary.GRPC.Version;

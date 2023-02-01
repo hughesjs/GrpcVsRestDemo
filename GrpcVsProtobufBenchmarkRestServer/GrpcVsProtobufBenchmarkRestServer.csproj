@@ -19,12 +19,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Protobuf Include="ModelLib/GRPC/MeteoriteLandings.proto">
-            <Generator>MSBuild:Compile</Generator>
-        </Protobuf>
-    </ItemGroup>
-
-    <ItemGroup>
       <None Update="ModelLib\Data\MeteoriteLandings.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
