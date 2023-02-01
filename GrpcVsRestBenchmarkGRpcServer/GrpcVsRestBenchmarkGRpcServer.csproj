@@ -5,7 +5,7 @@
         <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <RootNamespace>GrpcVsProtobufBenchmark</RootNamespace>
+        <RootNamespace>GrpcVsRestBenchmark</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>

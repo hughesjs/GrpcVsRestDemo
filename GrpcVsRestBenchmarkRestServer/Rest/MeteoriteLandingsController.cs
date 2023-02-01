@@ -1,8 +1,8 @@
-﻿using GrpcVsProtobufBenchmark.ModelLib.Data;
+﻿using GrpcVsRestBenchmark.ModelLib.Data;
+using GrpcVsRestBenchmark.ModelLib.REST;
 using Microsoft.AspNetCore.Mvc;
-using ModelLibrary.REST;
 
-namespace GrpcVsProtobufBenchmark.Rest;
+namespace GrpcVsRestBenchmark.Rest;
 
 [Microsoft.AspNetCore.Components.Route("api/[controller]")]
 [ApiController]

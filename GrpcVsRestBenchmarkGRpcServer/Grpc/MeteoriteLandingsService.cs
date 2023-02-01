@@ -1,10 +1,9 @@
 ﻿using Grpc.Core;
-using GrpcVsProtobufBenchmark.ModelLib.Data;
-using ModelLibrary.Data;
+using GrpcVsRestBenchmark.ModelLib.Data;
 using ModelLibrary.GRPC;
 using Version = ModelLibrary.GRPC.Version;
 
-namespace GrpcVsProtobufBenchmark.Grpc;
+namespace GrpcVsRestBenchmark.Grpc;
 
 public class MeteoriteLandingsService: ModelLibrary.GRPC.MeteoriteLandingsService.MeteoriteLandingsServiceBase
 {

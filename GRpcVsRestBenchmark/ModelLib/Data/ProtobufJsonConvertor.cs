@@ -1,9 +1,8 @@
 ﻿using Google.Protobuf;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
-using System;
 
-namespace ModelLibrary.Data
+namespace GrpcVsRestBenchmark.ModelLib.Data
 {
     public class ProtobufJsonConvertor : JsonConverter
     {

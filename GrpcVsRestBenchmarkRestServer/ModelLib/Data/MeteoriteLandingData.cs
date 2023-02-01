@@ -1,8 +1,8 @@
-﻿using ModelLibrary.REST;
+﻿using GrpcVsRestBenchmark.ModelLib.REST;
 using JsonSerializer = System.Text.Json.JsonSerializer;
 
 
-namespace GrpcVsProtobufBenchmark.ModelLib.Data
+namespace GrpcVsRestBenchmark.ModelLib.Data
 {
     public static class MeteoriteLandingData
     {

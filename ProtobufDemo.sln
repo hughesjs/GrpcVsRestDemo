@@ -6,9 +6,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtobufDemoProject", "Prot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRpcDemoProject", "GRpcDemoProject\GRpcDemoProject.csproj", "{D27EB23B-3BF1-4EA2-AD54-3FECA2D99420}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcVsProtobufBenchmarkRestServer", "GrpcVsProtobufBenchmarkRestServer\GrpcVsProtobufBenchmarkRestServer.csproj", "{C4F5286A-719A-4BDA-A0BF-3DCB732E41C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcVsRestBenchmarkRestServer", "GrpcVsRestBenchmarkRestServer\GrpcVsRestBenchmarkRestServer.csproj", "{C4F5286A-719A-4BDA-A0BF-3DCB732E41C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcVsProtobufBenchmarkGRpcServer", "GrpcVsProtobufBenchmarkGRpcServer\GrpcVsProtobufBenchmarkGRpcServer.csproj", "{F2D9E2E2-FFCA-47F6-AEF3-AAF1C11B9B56}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcVsRestBenchmarkGRpcServer", "GrpcVsRestBenchmarkGRpcServer\GrpcVsRestBenchmarkGRpcServer.csproj", "{F2D9E2E2-FFCA-47F6-AEF3-AAF1C11B9B56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demos", "Demos", "{295CB714-9206-43EE-B755-955D9F9A896F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Benchmarking", "Benchmarking", "{60025642-B2C4-4091-9FA5-4953D241A7BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRpcVsRestBenchmark", "GRpcVsRestBenchmark\GRpcVsRestBenchmark.csproj", "{48DAAAC8-C00B-40EC-9CC4-36ECA9D25DF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +42,17 @@ Global
 		{F2D9E2E2-FFCA-47F6-AEF3-AAF1C11B9B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2D9E2E2-FFCA-47F6-AEF3-AAF1C11B9B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2D9E2E2-FFCA-47F6-AEF3-AAF1C11B9B56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48DAAAC8-C00B-40EC-9CC4-36ECA9D25DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48DAAAC8-C00B-40EC-9CC4-36ECA9D25DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48DAAAC8-C00B-40EC-9CC4-36ECA9D25DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48DAAAC8-C00B-40EC-9CC4-36ECA9D25DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{41E32DE4-253F-4852-B63A-FB2A4E5FC496} = {60025642-B2C4-4091-9FA5-4953D241A7BE}
+		{C4F5286A-719A-4BDA-A0BF-3DCB732E41C3} = {60025642-B2C4-4091-9FA5-4953D241A7BE}
+		{F2D9E2E2-FFCA-47F6-AEF3-AAF1C11B9B56} = {60025642-B2C4-4091-9FA5-4953D241A7BE}
+		{D27EB23B-3BF1-4EA2-AD54-3FECA2D99420} = {295CB714-9206-43EE-B755-955D9F9A896F}
+		{D8923450-EB55-4510-BDEE-62AFE747C148} = {295CB714-9206-43EE-B755-955D9F9A896F}
+		{48DAAAC8-C00B-40EC-9CC4-36ECA9D25DF2} = {60025642-B2C4-4091-9FA5-4953D241A7BE}
 	EndGlobalSection
 EndGlobal
